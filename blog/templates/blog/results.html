@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+    <h1>Results: </h1>
+    <h3>Original text: </h3>
+    <p>{{search_text}}</p>
+    <h3>Ordered by similarity: </h3>
+    <small>
+        {% for result in results %}
+            <p>{{result.title}}: {{result.content}}</p>
+        {% endfor %}
+    </small> 
+{% endblock page_content %}

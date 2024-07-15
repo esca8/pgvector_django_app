@@ -1,9 +1,18 @@
-<h1>Search Results</h1>
+{% extends "base.html" %}
 
+{% block page_content %}
 <ul>
   {% for post in object_list %}
-    <li>
-      {{ post.title }}, {{ post.body }}
-    </li>
+    <h3><a href="{% url 'blog_detail' post.pk %}">{{ post.title }}</a></h3>
+    <small>
+        {{ post.created_on.date }} | Categories:
+        {% for category in post.categories.all %}
+            <a href="{% url 'blog_category' category.name %}">
+                {{ category.name }}
+            </a>
+        {% endfor %}
+    </small>
+    <p>{{ post.body | slice:":400" }}...</p>
   {% endfor %}
 </ul>
+{% endblock page_content %}

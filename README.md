@@ -3,8 +3,10 @@ Django: `python -m pip install Django`
 pgvector: `pip install pgvector`
 psycopg2: `python -m pip install psycopg2-binary`
 
-### Env:
-Set `OPENAI_KEY` environment variable. 
+### Setup:
+Env: Set `OPENAI_KEY` environment variable. 
+Database: Replace database params in settings.py with your postgresql DB info
+- L79: https://github.com/esca8/pgvector_django_app/blob/main/personal_blog/settings.py
 
 ### Spin up server: 
 Run the command: `python manage.py runserver`. 

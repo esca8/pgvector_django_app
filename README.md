@@ -25,10 +25,13 @@ Pgvector integration in these files:
 
 ### Example run: 
 Original page: 
+
 ![image](https://github.com/user-attachments/assets/6fb38478-66f0-43f5-8e85-7d4bc47954f7)
 
 Search query: 
+
 ![image](https://github.com/user-attachments/assets/a24e45e3-3c5a-474e-814f-1bac14d649e1)
 
 Results: 
+
 ![image](https://github.com/user-attachments/assets/dfaf5703-0769-400e-b183-bf0c363ea475)

@@ -24,14 +24,14 @@ Pgvector integration in these files:
 - Similar to Google's "gemini summary", perhaps provide search results to GPT to generate summary?
 
 ### Example run: 
-1. Original page: 
+1. <ins>Original page:</ins>
 
 ![image](https://github.com/user-attachments/assets/6fb38478-66f0-43f5-8e85-7d4bc47954f7)
 
-2. Search query: 
+2. <ins>Search query:</ins> 
 
 ![image](https://github.com/user-attachments/assets/a24e45e3-3c5a-474e-814f-1bac14d649e1)
 
-3. Results: 
+3. <ins>Results:</ins> 
 
 ![image](https://github.com/user-attachments/assets/dfaf5703-0769-400e-b183-bf0c363ea475)
